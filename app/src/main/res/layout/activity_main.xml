@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:background="#fa7c5a">
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/kel5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:layout_marginBottom="10sp"
+        >
+
+        <ImageView
+            android:id="@+id/lima"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15sp"
+            android:src="@drawable/go" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lima"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="1dp"
+            android:text="ICON 1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/enam"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5sp"
+            android:layout_toRightOf="@id/lima"
+            android:src="@drawable/gotagihan" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lima"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            android:text="ICON2"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/aa"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15sp" />
+
+
+
+        <Button
+            android:id="@+id/btnbinding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="210dp"
+            android:text="ICON 2">
+        </Button>
+</RelativeLayout>
+
+
+</RelativeLayout>
